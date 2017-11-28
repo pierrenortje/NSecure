@@ -1,12 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NSecure.Encryption;
+﻿using NSecure.Encryption;
+using NUnit.Framework;
 
 namespace NSecure.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class DiffieHellmanTests
     {
-        [TestMethod]
+        [TestCase]
         public void Encrypt_Decrypt()
         {
             string text = "Hello World!";
