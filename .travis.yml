@@ -1,2 +1,2 @@
 language: csharp
-solution: NSecure.sln
+solution: NSecure/NSecure.sln
